@@ -1,13 +1,12 @@
 import time
 from tkinter import messagebox
-status = "on"
 time1 = input("How often would you like to stand up in minutes? Enter an number. (30, 120, etc.): ")
 time2 = int(time1)
 time3 = time2 * 60
 time4 = input("How long would you like your standing sessions to be? Enter a number. (5, 10, etc.): ")
 time5 = int(time4)
 time6 = time5 * 60
-while status == "on":
+while status True:
 	time.sleep(time3)
 	answer = messagebox.askokcancel("Stand up!", "It's been %s minutes and is time for you to stand up!" % time1)
 	if answer == False:
