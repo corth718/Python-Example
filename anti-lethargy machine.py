@@ -6,7 +6,7 @@ time3 = time2 * 60
 time4 = input("How long would you like your standing sessions to be? Enter a number. (5, 10, etc.): ")
 time5 = int(time4)
 time6 = time5 * 60
-while status True:
+while True:
 	time.sleep(time3)
 	answer = messagebox.askokcancel("Stand up!", "It's been %s minutes and is time for you to stand up!" % time1)
 	if answer == False:
